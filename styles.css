@@ -138,3 +138,6 @@ p {
     /* 悬停时的背景颜色，您可以自定义 */
     color: white;/
 }
+strong{
+    color: green;
+}
