@@ -2,72 +2,71 @@ body,
 html {
     width: 100%;
     height: 100%;
-    /* display: flex;
-    flex-direction: row; */
-    /* padding: 20px; */
     padding: 0px;
     margin: 0px;
 }
 
 .box1 {
-    /* text-align: center; */
     margin-left: 800;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 200px;
-    
+
 }
-.box3{
-     display: flex;
-     box-sizing: border-box;
-     padding: 0 130px;
+
+.box3 {
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 130px;
     justify-content: space-between;
 }
+
 .box2 {
     width: 300px;
     margin-top: 100px;
-    /* margin-right: 50px; */
 }
-.exp{
+
+.exp {
     white-space: pre-line;
-    overflow-y:auto;
+    overflow-y: auto;
     font-size: small;
     display: none;
 }
-.exp:hover~.exp {
+.jobbtn:hover~.exp {
     display: block;
- }
-.link{
-    
-    /* display: inline-block;   */
-    /* text-align: center; */
-     margin-left: 120px;
-
 }
-p {
-    /* width: 20px;*/
-    height: 350px;
-    /* max-height: 0; */
 
+.link {
+    margin-left: 120px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:visited{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+p {
+
+    height: 350px;
     box-sizing: border-box;
     line-height: 24px;
-    background: #86D17B;
+    background: #ffffff;
     overflow: hidden;
     transition: all .3s linear;
     box-shadow: 15px 18px 40px 0 rgba(189, 189, 189, 0.50);
     border-radius: 8px;
-   
+
 }
 
-.jobbtn:hover~.exp {
-   display: block;
-}
 
-.jobbtn:hover {
-    color: white;
-    background-color: #5BB28F;
-}
+
+
 
 #SS {
     width: 296px;
@@ -99,6 +98,7 @@ p {
     justify-content: center;
     font-size: 61px;
 }
+
 #ER {
     width: 296px;
     height: 165px;
@@ -113,6 +113,7 @@ p {
     justify-content: center;
     font-size: 61px;
 }
+
 #Mac {
     width: 296px;
     height: 165px;
@@ -128,7 +129,11 @@ p {
     font-size: 61px;
 }
 
-#SS:hover, #TMA:hover, #ER:hover, #Mac:hover {
-    background-color: #467C69; /* 悬停时的背景颜色，您可以自定义 */
-    color: white; /
+#SS:hover,
+#TMA:hover,
+#ER:hover,
+#Mac:hover {
+    background-color: #abd2c5;
+    /* 悬停时的背景颜色，您可以自定义 */
+    color: white;/
 }
