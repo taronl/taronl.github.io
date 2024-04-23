@@ -17,7 +17,7 @@ html {
 }
 
 .box3 {
-    display: inline-flex;
+    display: flex;
     box-sizing: border-box;
     padding: 0 130px;
     justify-content: space-between;
